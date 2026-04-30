@@ -39,7 +39,7 @@ jobs:
         run: |
           eb init minha-api \
           --platform node.js \
-          --region us-east-1
+          --region us-east-2
 
       - name: Selecionar ambiente
         run: |
